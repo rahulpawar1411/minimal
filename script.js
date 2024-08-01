@@ -34,41 +34,30 @@ locomotive();
 
 
 
-// function loading() {
-//   var tl = gsap.timeline()
-//     .to("#loader ", {
-//       y: -100,
-//       duration: 1,
-//       delay: 1,
-//       opacity: -1,
-//       // ease: "power2.out",
-//     })
-//   }
-//   loading()
 
 
 var tl = gsap.timeline()
   .from("#nav", {
     y: -100,
     duration: 1.5,
-    delay:1,
+    delay: 1,
     opacity: -1,
-   
+
   })
-  .from("#page1 .pg1-h h1",{
-    y:50,
-    opacity:0,
+  .from("#page1 .pg1-h h1", {
+    y: 50,
+    opacity: 0,
     duration: 1,
     stagger: 0.3,
   })
-  .from("#page1 .pg1-text ",{
-    y:50,
-    opacity:0,
+  .from("#page1 .pg1-text ", {
+    y: 50,
+    opacity: 0,
     duration: 1,
   })
-  .from("#page2 #pg2-img ",{
-    y:50,
-    opacity:0,
+  .from("#page2 #pg2-img ", {
+    y: 50,
+    opacity: 0,
     duration: 1,
     scrollTrigger: {
       trigger: "#page2 #pg2-img ",
@@ -78,23 +67,23 @@ var tl = gsap.timeline()
       end: "top 40%",
       scrub: 1,
     }
-    })
-    .from("#page3 .pg3-head ",{
-      y:50,
-      opacity:0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: "#page3 .pg3-head",
-        scroller: "#all",
-        // markers:true,
-        start: "top 80%",
-        end: "top 40%",
-        scrub: 1,
-      }
   })
-  .from("#page3 .pg3-body",{
-    y:50,
-    opacity:0,
+  .from("#page3 .pg3-head ", {
+    y: 50,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page3 .pg3-head",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+    }
+  })
+  .from("#page3 .pg3-body", {
+    y: 50,
+    opacity: 0,
     duration: 1,
     scrollTrigger: {
       trigger: "#page3 .pg3-body",
@@ -104,18 +93,161 @@ var tl = gsap.timeline()
       end: "top 40%",
       scrub: 1,
     }
-})
-.from("#page4 .imgdiv1",{
-  y:50,
-  opacity:0,
-  duration: 1,
-  scrollTrigger: {
-    trigger: "#page4 .imgdiv1",
-    scroller: "#all",
-    // markers:true,
-    start: "top 80%",
-    end: "top 40%",
-    scrub: 1,
-    stagger:1.2,
-  }
-})
+  })
+  .from("#page4 .imgdiv1", {
+    y: 50,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page4 .imgdiv1",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page5 .pg5-head", {
+    y: 50,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page5 .pg5-head",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page5 .pg5-main .brand", {
+    y: 50,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page5 .pg5-main .brand",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page5 .pg5-main .imgdiv5", {
+    y: 50,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page5 .pg5-main .imgdiv5",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page5 .pg5-main .visual", {
+    y: 50,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page5 .pg5-main .visual",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page5 .pg5-main .menu", {
+    x: 100,
+    opacity: 0,
+    // duration: 1,
+    scrollTrigger: {
+      trigger: "#page5 .pg5-main .menu",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page5 .pg5-main .menu2", {
+    x: 100,
+    opacity: 0,
+    // duration: 1,
+    scrollTrigger: {
+      trigger: "#page5 .pg5-main .menu2",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page6 .pg6-head", {
+    x: -100,
+    opacity: 0,
+    // duration: 1,
+    scrollTrigger: {
+      trigger: "#page6 .pg6-head",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page6 .mg", {
+    // x:-100,
+    scale: 1,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page6 .mg",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page6 .pg6-foot", {
+    x: -100,
+    // scale:1,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page6 .pg6-foot",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })
+  .from("#page7", {
+    y: 100,
+    // scale:1,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: "#page7",
+      scroller: "#all",
+      // markers:true,
+      start: "top 80%",
+      end: "top 40%",
+      scrub: 1,
+      stagger: 1.2,
+    }
+  })

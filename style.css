@@ -736,13 +736,14 @@ body {
 
     #page1 {
         width: 100%;
-        height: 100vh;
+        height: 100%;
+        /* background-color: hotpink; */
     }
 
     #page1 .pg1-h {
         width: 100%;
         height: 40%;
-        background-color: red;
+        background-color: rgb(247, 136, 136);
         /* display : flex; */
         /* justify-content: center;
         align-items: start;
@@ -758,7 +759,7 @@ body {
     #page1 .pg1-text {
         width: 100%;
         height: 60%;
-        /* background-color: rgb(207, 148, 70); */
+        background-color: rgb(207, 148, 70);
         display: flex;
         /* justify-content: space-between; */
         align-items: center;
@@ -767,8 +768,8 @@ body {
 
     #page1 .pg1-text .text-h2 {
         width: 100%;
-        height: 20%;
-        /* background-color: lightcoral; */
+        height: 10%;
+        background-color: rgb(241, 82, 82);
         display: flex;
         justify-content: start;
         align-items: center;
@@ -776,7 +777,7 @@ body {
     }
 
     #page1 .pg1-text .text-h2 h2 {
-        font-size: 5vw;
+        font-size: 6vw;
         font-weight: 800;
     }
 
