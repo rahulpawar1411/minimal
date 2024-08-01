@@ -749,15 +749,11 @@ body {
         height: 40%;
         /* background-color: rgb(247, 136, 136); */
         padding-left: 20px;
-        /* display : flex; */
-        /* justify-content: center;
-        align-items: start;
-        flex-direction: column; */
     }
 
     #page1 .pg1-h h1 {
     
-        font-size: 15vh;
+        font-size: 12vh;
         font-weight: 900;
     }
 
