@@ -342,7 +342,7 @@ body {
 #page5 .pg5-head .expertise button {
     font-size: 1.5vw;
     padding: 10px 30px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 10px;
     border-radius: 50px;
     border: 1px solid #000;
@@ -723,6 +723,10 @@ body {
         /* background-color: red; */
         border-bottom: 1px solid #000;
     }
+    #nav .nav1 h1{
+        font-size: 6.5vw;
+        padding-left: -20px;
+    }
 
     #nav .nav2 {
         display: none;
@@ -743,7 +747,7 @@ body {
     #page1 .pg1-h {
         width: 100%;
         height: 40%;
-        background-color: rgb(247, 136, 136);
+        /* background-color: rgb(247, 136, 136); */
         /* display : flex; */
         /* justify-content: center;
         align-items: start;
@@ -759,7 +763,7 @@ body {
     #page1 .pg1-text {
         width: 100%;
         height: 60%;
-        background-color: rgb(207, 148, 70);
+        /* background-color: rgb(207, 148, 70); */
         display: flex;
         /* justify-content: space-between; */
         align-items: center;
@@ -768,8 +772,8 @@ body {
 
     #page1 .pg1-text .text-h2 {
         width: 100%;
-        height: 10%;
-        background-color: rgb(241, 82, 82);
+        height: 10vh;
+        /* background-color: rgb(241, 82, 82); */
         display: flex;
         justify-content: start;
         align-items: center;
@@ -781,7 +785,7 @@ body {
         font-weight: 800;
     }
 
-    #page1 .pg1-text .text-p {
+    #page1 .pg1-text .text-p { 
         width: 100%;
         height: 80%;
         /* background-color: rgb(165, 30, 30); */
@@ -832,13 +836,13 @@ body {
 
     #page3 {
         width: 100vw;
-        height: 80vh;
+        height: 65vh;
         /* background-color: rgb(11, 255, 121); */
     }
 
     #page3 .pg3-head {
         width: 100vw;
-        height: 40vh;
+        height: 30vh;
         /* background-color: lightcoral; */
         display: flex;
         justify-content: space-between;
@@ -847,15 +851,16 @@ body {
     }
 
     #page3 .pg3-head .about {
-        width: 30%;
+        width: 40%;
         height: 30%;
         /* background-color: red; */
-        padding: 22px;
+        padding: 10px 10px;
     }
 
     #page3 .pg3-head .about button {
-        font-size: 3vw;
-        padding: 5px 15px;
+        width: 90px;
+        font-size: 4vw;
+        padding: 10px 15px;
         border-radius: 50px;
         border: 1px solid #000;
         background-color: #fff;
@@ -880,7 +885,7 @@ body {
 
     #page3 .pg3-body {
         width: 100vw;
-        height: 40vh;
+        height: 35vh;
         /* background-color: rgb(224, 236, 48); */
         display: flex;
         justify-content: space-between;
@@ -898,7 +903,7 @@ body {
     #page3 .pg3-body .fermen h1 {
         width: 200px;
         height: 100%;
-        font-size: 3vw;
+        font-size: 4vw;
         font-weight: 600;
         /* background-color: red; */
         margin-left: -30px;
@@ -909,7 +914,7 @@ body {
 
     #page3 .pg3-body .varius {
         width: 100vw;
-        /* background-color: rgb(231, 120, 120); */
+        /* background-color: rgb(97, 48, 48); */
         padding: 0 20px;
         display: flex;
         justify-content: space-between;
@@ -919,7 +924,7 @@ body {
 
     #page3 .pg3-body .varius p {
         font-size: 3vw;
-        /* padding-bottom: 40px; */
+        padding-bottom: 10px;
     }
 
     #page3 .pg3-body .varius button {
@@ -936,20 +941,25 @@ body {
 
     #page4 {
         width: 100vw;
-        height: 250vh;
+        height: 100vh;
         /* background-color: khaki; */
         padding: 0 0px;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         flex-direction: column;
     }
 
     #page4 .imgdiv1 {
-        width: 90%;
-        height: 32%;
-        /* background-color: rgb(243, 123, 123); */
+        width: 60%;
+        height: 30%;
+        /* background-color: rgb(168, 0, 0); */
         border-radius: 5px;
         overflow: hidden;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
+        display : flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #page4 .imgdiv1 img {
@@ -967,13 +977,13 @@ body {
 
     #page5 {
         width: 100%;
-        height: 180vh;
+        height: 145vh;
         /* background-color: rgb(240, 140, 240); */
     }
 
     #page5 .pg5-head {
         width: 100%;
-        height: 60vh;
+        height: 45vh;
         /* background-color: aqua; */
         padding: 0 30px;
         display: flex;
@@ -985,6 +995,7 @@ body {
     #page5 .pg5-head .expertise {
         width: 100%;
         height: 20%;
+        margin-bottom: 10px;
         /* background-color: red; */
     }
 
@@ -1025,6 +1036,7 @@ body {
         align-items: end;
         flex-direction: column;
         padding: 0 25px;
+        /* background-color: red; */
     }
 
     #page5 .pg5-main .brand {
@@ -1038,6 +1050,7 @@ body {
     }
 
     #page5 .pg5-main .brand button {
+        width: 100px;
         color: #fff;
         background-color: #000;
         font-size: 13px;
@@ -1049,7 +1062,7 @@ body {
 
     #page5 .pg5-main .imgdiv5 {
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         /* background-color: hotpink; */
         display: flex;
         justify-content: end;
@@ -1064,7 +1077,7 @@ body {
 
     #page5 .pg5-main .visual {
         width: 100%;
-        height: 25vh;
+        height: 18vh;
         /* background-color: red; */
         display: flex;
         justify-content: space-between;
@@ -1073,7 +1086,7 @@ body {
     }
 
     #page5 .pg5-main .visual h1 {
-        font-size: 4vw;
+        font-size: 4.5vw;
         font-weight: 600;
         /* background-color: yellow; */
         padding: 20px;
@@ -1082,9 +1095,9 @@ body {
     #page5 .pg5-main .visual p {
         width: 70%;
         height: 100%;
-        font-size: 2.2vw;
-        font-weight: 300;
-        padding: 20px;
+        font-size: 2vw;
+        font-weight: 500;
+        padding: 20px 10px;
         /* background-color: rgb(238, 238, 132); */
     }
 
@@ -1102,13 +1115,13 @@ body {
     }
 
     #page5 .pg5-main .menu h1 {
-        font-size: 3.5vw;
+        font-size: 4vw;
         font-weight: 600;
     }
 
     #page5 .pg5-main .menu button {
-        font-size: 2vw;
-        padding: 10px 30px;
+        font-size: 3vw;
+        padding: 10px 20px;
         margin-left: 10px;
         margin-top: 10px;
         border-radius: 50px;
@@ -1130,13 +1143,13 @@ body {
     }
 
     #page5 .pg5-main .menu2 h1 {
-        font-size: 3.5vw;
+        font-size: 4vw;
         font-weight: 600;
     }
 
     #page5 .pg5-main .menu2 button {
-        font-size: 2vw;
-        padding: 10px 30px;
+        font-size: 3vw;
+        padding: 10px 20px;
         margin-left: 10px;
         margin-top: 10px;
         border-radius: 50px;
@@ -1149,20 +1162,20 @@ body {
 
     #page6 {
         width: 100%;
-        height: 90vh;
+        height: 90%;
         /* background-color: rgb(173, 173, 245); */
         padding: 10px 20px;
     }
 
     #page6 .pg6-head {
         width: 100%;
-        height: 25vh;
+        height: 20vh;
         /* background-color: red; */
     }
 
     #page6 .pg6-head button {
-        font-size: 2vw;
-        padding: 10px 30px;
+        font-size: 3vw;
+        padding: 10px 20px;
         margin-left: 10px;
         margin-top: 10px;
         border-radius: 50px;
@@ -1187,19 +1200,20 @@ body {
 
     #page6 .pg6-body {
         width: 100%;
-        height: 55vh;
+        height: 75vh;
         /* background-color: lightcoral; */
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* flex-direction: column; */
+        flex-direction: column;
         padding: 0 20px;
+        position: relative;
 
     }
 
     #page6 .pg6-body .mg {
-        width: 45%;
-        height: 50vh;
+        width: 65%;
+        height: 35vh;
         background-color: rgb(27, 25, 25);
         border-radius: 5px;
         overflow: hidden;
@@ -1245,19 +1259,28 @@ body {
     /* --------------------------------------------------page6 foot */
 
     #page6 .pg6-foot {
+        position: absolute;
+        left: 50%;
+        bottom: 2%;
+        transform: translate(-50%,-50%);
+        /* display: none; */
         width: 100%;
-        height: 5%;
-        /* background-color: red; */
-        display: flex;
-        justify-content: start;
-        align-items: start;
+        height: 12%;
+        background-color: rgba(255, 0, 0, 0.521);
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
         /* padding: 0 20px; */
+        display: none;
     }
 
     #page6 .pg6-foot h1 {
+        /* display: none; */
         width: 80%;
-        /* background-color: green; */
-        font-size: 3vw;
+        background-color: green;
+        font-size: 4vw;
         font-weight: 600;
     }
 
