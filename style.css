@@ -723,7 +723,7 @@ body {
 
 
 
- #sidenav{
+ #nav #sidenav{
    display: none;
 }
  #res-side{
