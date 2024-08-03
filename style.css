@@ -723,10 +723,10 @@ body {
 
 
 
-#nav #sidenav{
+ #sidenav{
    display: none;
 }
-#nav #res-side{
+ #res-side{
     display: none;
 }
 
@@ -924,7 +924,7 @@ body {
         width: 40%;
         height: 30%;
         /* background-color: red; */
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
     #page3 .pg3-head .about button {
@@ -973,7 +973,7 @@ body {
     #page3 .pg3-body .fermen h1 {
         width: 200px;
         height: 100%;
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: 600;
         /* background-color: red; */
         margin-left: -30px;
@@ -985,7 +985,7 @@ body {
     #page3 .pg3-body .varius {
         width: 100vw;
         /* background-color: rgb(97, 48, 48); */
-        padding: 0 20px;
+        padding: 10px 10px;
         display: flex;
         justify-content: space-between;
         align-items: start;
@@ -993,8 +993,9 @@ body {
     }
 
     #page3 .pg3-body .varius p {
-        font-size: 3vw;
+        font-size: 3.3vw;
         padding-bottom: 10px;
+        font-weight: 400;
     }
 
     #page3 .pg3-body .varius button {
@@ -1118,6 +1119,10 @@ body {
         align-items: center;
         padding: 0 10px;
     }
+    #page5 .pg5-main .brand h1{
+        font-size: 6vw;
+        font-weight: 600;
+    }
 
     #page5 .pg5-main .brand button {
         width: 100px;
@@ -1127,7 +1132,7 @@ body {
         padding: 10px 15px;
         border-radius: 50px;
         border: none;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     #page5 .pg5-main .imgdiv5 {

@@ -265,7 +265,6 @@ var nav22 = document.querySelector(".nav2");
 
 open.addEventListener("click", function(){
   // alert("hyy");
-
   resSide.style.right = "-50%";
   open.style.display = "none";
   close.style.display = "block";
@@ -275,7 +274,7 @@ open.addEventListener("click", function(){
     opacity:0,
     duration:1.5,
     
-  })
+  });
   
 })
 
