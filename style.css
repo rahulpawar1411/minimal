@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
+    position: relative;
 }
 
 #nav .nav1 h1 {
@@ -200,6 +201,9 @@ body {
 
 .about button:hover {
     font-weight: 800;
+}
+.about button:active{
+    color: #dadadaee;
 }
 
 #page3 .pg3-head .aware {
@@ -620,6 +624,10 @@ body {
     opacity: 1;
 }
 
+#page6 .pg6-body .mg .bland button:active {
+    color:#dadadaee;
+}
+
 /* --------------------------------------------------page6 foot */
 
 #page6 .pg6-foot {
@@ -715,10 +723,74 @@ body {
 
 
 
-
+#nav #sidenav{
+   display: none;
+}
+#nav #res-side{
+    display: none;
+}
 
 /* -----------------------------------------------------------------------media */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+
+    #nav #sidenav{
+        font-size: 20px;
+        position: absolute;
+        right: 20px;
+        top: 45%;
+        transform: translate(-50%,-50%);;
+        display: block;
+        
+    }
+
+    #res-side{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: -150%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(0, 0, 0, 0.884);
+        transition: 1s all ease;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        color: #fff;
+        /* position: static; */
+    }
+    #res-side i{
+        /* background-color: green; */
+        position: absolute;
+        font-size: 20px;
+        right: 8%;
+        top: 10%;
+        transform: translate(-50%,-50%);
+    }
+    #res-side .nav2{
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #res-side a{
+        font-weight: 200;
+        padding-bottom: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 10vw;
+        cursor: pointer;
+    } 
+    #res-side a:active{
+        color: #dadadac0;
+    }
+    #res-side span{
+        display: none;
+    }
+
+
+
+
     #nav {
         /* background-color: red; */
         border-bottom: 1px solid #000;
