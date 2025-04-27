@@ -271,6 +271,7 @@ open.addEventListener("click", function(){
   resSide.style.right = "-50%";
   open.style.display = "none";
   close.style.display = "block";
+  document.body.style.overflowY = "hidden";
 
   gsap.from("#res-side .nav2 ",{
     x:100,

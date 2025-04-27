@@ -1127,6 +1127,7 @@ body {
         justify-content: space-between;
         align-items: center;
         padding: 0 10px;
+        scrollbar-width: none;
     }
     #page5 .pg5-main .brand h1{
         font-size: 6vw;
