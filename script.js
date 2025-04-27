@@ -287,6 +287,7 @@ close.addEventListener("click", function(){
   resSide.style.right = "-150%";
   close.style.display = "none";
   open.style.display = "block";
+  document.body.style.overflowY = "auto";
 })
 }
 responsive();
